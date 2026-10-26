@@ -15,7 +15,7 @@ int main(void)
         return 1;
     }
 
-    litros_disponibles = litros_iniciales + litros_agregados + litros_consumidos;
+    litros_disponibles = litros_iniciales + litros_agregados - litros_consumidos;
 
     printf("Litros disponibles: %d\n", litros_disponibles);
     return 0;
